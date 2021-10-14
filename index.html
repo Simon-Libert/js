@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Event</title>
+</head>
+<body>
+    <div class="clickEvent">
+        <button id="btn">Appuyez ! </button>
+        <hr>
+        <img src="header2.jpg" width="400 height="400 id="img" alt="groupe">
+    </div>
+
+    <div class="mouseEvent">
+        <div>Horizontal : <span class="horizontal" >0</span></div>
+        <div>Vertical : <span class="vertical">0</span></div>
+    </div>
+    <div class="inputEvent">
+        <label for="input2"> Comment ça va ?</label> <!-- le label connecte le "for" au "id" - la réponse à la question s'affiche donc dans dans le cadre -->
+        <br>
+        <input type="text" id="input2">
+        <div id="result"></div>
+    </div>
+
+    <div class="themeContainer">
+        <div class="theme" id="dark"></div>
+        <div class="theme"id="salmon"></div>
+        <div class="theme" id="yellow"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

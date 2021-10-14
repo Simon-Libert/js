@@ -1,0 +1,69 @@
+* {
+    border-radius: 30px;
+    padding: 8px;
+    text-align: center;
+}
+
+body {
+    min-height: 10vh;
+    transition: 5s;
+}
+
+img {
+    margin: 0 auto;
+    visibility: hidden;
+   
+}
+
+.show {
+    visibility: visible;
+}
+
+.mouseEvent {
+    border: 6px solid;
+    width: 220px;
+    position: absolute;
+    left: 10;
+    transform: translateX(-50%);
+    padding: 10px;
+}
+
+.themeContainer {
+    position: fixed;
+    top: 0;
+
+}
+
+.theme {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+#dark {
+    background: black;
+}
+
+#salmon {
+    background: salmon;
+}
+
+#yellow {
+    background: yellow;
+}
+
+.darkTheme {
+    background: black;
+    
+}
+
+.salmonTheme {
+    background: salmon;
+    
+}
+
+.yellowTheme {
+    background: yellow;
+   
+}
+
